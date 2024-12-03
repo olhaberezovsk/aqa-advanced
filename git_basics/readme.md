@@ -1,0 +1,1 @@
+JS Test Automation project. Berezovska Olha.
