@@ -1,5 +1,5 @@
 function ageVerifyingDeclaration (age) {
-    return age => 18
+    return age >= 18
 }
 
 console.log("Age Verifying Declaration, the age is 15 - ", ageVerifyingDeclaration(15));
@@ -8,7 +8,7 @@ console.log("Age Verifying Declaration, the age is  25 - ", ageVerifyingDeclarat
 /////////////////////////////////////////////////////////
 
 const ageVerifyingExpression = function (age) {
-    return age => 18;
+    return age >= 18;
 }
 
 console.log("Age Verifying Expression, the age is 15 - ", ageVerifyingExpression(15));
@@ -16,7 +16,7 @@ console.log("Age Verifying Expression, the age is  25 - ", ageVerifyingExpressio
 
 ////////////////////////////////////////////////////////
 
-const ageVerifyingArrow = (age) => age => 18;
+const ageVerifyingArrow = (age) => age >= 18;
 
 console.log("Age Verifying Arrow, the age is 15 - ", ageVerifyingArrow(15));
 console.log("Age Verifying Arrow, the age is  25 - ", ageVerifyingArrow(25));
